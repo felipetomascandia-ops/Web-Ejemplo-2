@@ -14,60 +14,100 @@ interface MenuCategory {
 
 const categories: MenuCategory[] = [
   {
-    title: "Platos Principales",
-    emoji: "🍖",
+    title: "Desayunos",
+    emoji: "🍳",
     items: [
       {
-        name: "Pabellón Criollo",
-        description: "Arroz, porotos negros, carne mechada y plátano maduro frito.",
-        price: "$14.000",
+        name: "Paila de huevo",
+        description: "Huevos al estilo de la casa con acompañamientos tradicionales.",
+        price: "Consultar",
       },
       {
-        name: "Lomo Vetado a la Grilla",
-        description: "200g de lomo premium con acompañamientos de la casa.",
-        price: "$16.000",
+        name: "Empanadas venezolanas",
+        description: "Empanadas crujientes con rellenos a elección.",
+        price: "Consultar",
       },
       {
-        name: "Pechuga Crispy Napolitana",
-        description: "Pollo crujiente con salsa napolitana, mozzarella gratinada, papas y arroz.",
-        price: "$13.500",
+        name: "Tequeños",
+        description: "Palitos de queso recién hechos, perfectos para compartir.",
+        price: "Consultar",
       },
       {
-        name: "Hamburguesa Nabaru",
-        description: "Carne artesanal, queso cheddar, cebolla caramelizada y salsas de la casa.",
-        price: "$13.000",
+        name: "Pasteles",
+        description: "Masa dorada con rellenos caseros.",
+        price: "Consultar",
+      },
+      {
+        name: "Sandwiches",
+        description: "Opciones clásicas para comenzar el día.",
+        price: "Consultar",
+      },
+      {
+        name: "Jugos naturales",
+        description: "Jugos de fruta fresca para acompañar tu desayuno.",
+        price: "Consultar",
       },
     ],
   },
   {
-    title: "Sopas",
-    emoji: "🍲",
+    title: "Colaciones",
+    emoji: "🍽️",
     items: [
       {
-        name: "Sopa de Costilla Venezolana",
-        description: "Carne de res en caldo con verduras, acompañada de arepa y limón.",
-        price: "$12.000",
+        name: "Porotos con rienda",
+        description: "Clásico chileno, contundente y casero.",
+        price: "Desde $6.500",
       },
       {
-        name: "Crema de Auyama",
-        description: "Crema suave de calabaza con toque de especias y pan artesanal.",
-        price: "$9.500",
+        name: "Pollo crispy a la napolitana",
+        description: "Pollo crujiente con salsa y queso gratinado.",
+        price: "Desde $6.500",
+      },
+      {
+        name: "Pabellón venezolano",
+        description: "Carne mechada, porotos negros, arroz y plátano maduro.",
+        price: "Desde $6.500",
+      },
+      {
+        name: "Costillas asadas",
+        description: "Costillas al punto, servidas con acompañamientos.",
+        price: "Desde $6.500",
       },
     ],
   },
   {
-    title: "Especialidades",
-    emoji: "⭐",
+    title: "Tardes y Picoteo",
+    emoji: "🌇",
     items: [
       {
-        name: "Arepas Rellenas",
-        description: "Arepa de maíz con relleno a elección: reina pepiada, carne mechada o porotos.",
-        price: "$8.500",
+        name: "Hamburguesas",
+        description: "Hamburguesas caseras con sabores venezolanos y chilenos.",
+        price: "Desde $8.990",
       },
       {
-        name: "Tequeños con Guasacaca",
-        description: "Palitos de queso crujientes con salsa de aguacate venezolana.",
-        price: "$7.000",
+        name: "Cachapas",
+        description: "Cachapas de maíz con queso derretido.",
+        price: "Desde $8.990",
+      },
+      {
+        name: "Arepas",
+        description: "Arepas rellenas con opciones clásicas.",
+        price: "Desde $8.990",
+      },
+      {
+        name: "Salchipapas",
+        description: "Papas fritas con salchichas y salsas de la casa.",
+        price: "Desde $8.990",
+      },
+      {
+        name: "Chorrillana mixta",
+        description: "Carne, cebolla y papas para compartir.",
+        price: "Desde $8.990",
+      },
+      {
+        name: "Classic sandwich",
+        description: "Sandwiches tradicionales con ingredientes frescos.",
+        price: "Desde $8.990",
       },
     ],
   },
@@ -95,7 +135,7 @@ const MenuSection = () => {
       <div className="container mx-auto px-4">
         <h2 className="font-display text-4xl font-bold text-foreground mb-2">Nuestro Menú</h2>
         <p className="text-muted-foreground mb-12 max-w-lg">
-          Cocina venezolana y latinoamericana con productos frescos del día. Porciones generosas, siempre.
+          Comida venezolana y chilena con preparaciones caseras y porciones generosas.
         </p>
 
         <div className="space-y-14">
